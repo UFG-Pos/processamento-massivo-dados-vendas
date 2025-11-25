@@ -1,0 +1,145 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# GITIGNORE - BLACK FRIDAY POC
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ───────────────────────────────────────────────────────────────────────────
+# Python
+# ───────────────────────────────────────────────────────────────────────────
+
+# Ambiente Virtual
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# ───────────────────────────────────────────────────────────────────────────
+# IDEs
+# ───────────────────────────────────────────────────────────────────────────
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ───────────────────────────────────────────────────────────────────────────
+# Sistema Operacional
+# ───────────────────────────────────────────────────────────────────────────
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ───────────────────────────────────────────────────────────────────────────
+# Spark / Big Data
+# ───────────────────────────────────────────────────────────────────────────
+
+# Spark Checkpoints
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Logs
+*.log
+logs/
+
+# ───────────────────────────────────────────────────────────────────────────
+# Dados Temporários
+# ───────────────────────────────────────────────────────────────────────────
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Dados locais (não versionar dados sensíveis)
+data/
+*.csv
+*.json
+*.parquet
+
+# ───────────────────────────────────────────────────────────────────────────
+# Outros
+# ───────────────────────────────────────────────────────────────────────────
+
+# Backup files
+*.bak
+*.backup
+
+
+bigdata_docker/*
+./bigdata_docker

@@ -1,0 +1,24 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# DEPENDÊNCIAS PYTHON - BLACK FRIDAY POC
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# Instalação:
+#   pip install -r requirements.txt
+#
+# Ou com ambiente virtual:
+#   python3 -m venv venv
+#   source venv/bin/activate  # Linux/Mac
+#   venv\Scripts\activate     # Windows
+#   pip install -r requirements.txt
+#
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Kafka Producer
+kafka-python==2.0.2
+
+# Geração de dados fake
+Faker==20.1.0
+
+# Utilitários (opcional, mas recomendado)
+python-dateutil==2.8.2
+
