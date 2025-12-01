@@ -200,3 +200,5 @@ Após executar o sistema por alguns minutos:
 
 **Repositório Base Docker:** https://github.com/fabiogjardim/bigdata_docker
 
+**Repositório do Projeto:** https://github.com/UFG-Pos/processamento-massivo-dados-vendas
+
